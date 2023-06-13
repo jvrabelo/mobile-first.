@@ -1,4 +1,34 @@
 width: 24px:
+.cabeçalho_menu-hamburger{
+2
+  width:24px;
+3
+    width:24px;
+4
+  background-image:url("../img/Menu.svg");
+5
+  background-repeat:no-repeat
+6
+  background-position:center;
+7
+  display:inline-block
+8
+}
+9
+​
+10
+.container_botao:checked~.container_rotulo>.cabeçalho_menu-hamburguer{
+11
+  background-image: url("../img/MENU ABERTO.svg")
+12
+}
+13
+.contariner__botão:cheked~.container__rotulo{
+14
+  backgroud:var(-azul-degrade);
+15
+  
+16
 
 cabeçalho_menu-hamburguer
 
@@ -31,4 +61,13 @@ align-itens:center;
 }
 .container_imagem{
 padding:1em;
+}
+.lista-menu {
+  display:nome;
+  position:absulute;
+  top:100%;
+  width: 60vw:
+}
+.container__botao:checked~.lista-menu {
+  display:blok;
 }
